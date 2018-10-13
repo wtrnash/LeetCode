@@ -28,7 +28,11 @@ P     I
 /*
 解答：把每个字符放入对应的行，到最下面或最上面就更改方向，最后按行输出
 */
+#include <iostream>
+#include <string>
 #include <vector>
+
+using namespace std;
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -81,3 +85,4 @@ public:
         return result;
     }
 };
+
