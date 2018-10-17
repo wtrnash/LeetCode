@@ -32,10 +32,10 @@ public:
             char temp = strs[0][j];
             for(int i = 1; i < strs.size(); i++)
             {
-                if(strs[i].length() <= j)
+                if(strs[i].length() <= j)   //数组是否越界
                     return result;
                 
-                if(strs[i][j] != temp)
+                if(strs[i][j] != temp)  //字符是否相等
                     return result;
             }
             
