@@ -52,7 +52,7 @@ public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
        vector<vector <int>> result;
         vector<int> temp;
-        sort(candidates.begin(), candidates.end());
+        sort(candidates.begin(), candidates.end()); //排序加快速度
         dfs(result, candidates, temp, target, 0);
         return result;
     }
