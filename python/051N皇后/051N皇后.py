@@ -57,7 +57,7 @@ class Solution:
                 self.dfs(result, pos[:], row + 1)
                 
             
-    def isValid(selfr, pos, row, column):
+    def isValid(self, pos, row, column):
         for i in range(row):
             if pos[i] == column or abs(row - i) == abs(pos[i] - column):
                 return False
