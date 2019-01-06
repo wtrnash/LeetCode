@@ -42,7 +42,7 @@ class Solution:
 
         result = []
         for i in range(n, 0, -1):
-            j = (k - 1) // f[i - 1]
+            j = (k - 1) // f[i - 1]         
             k = k % f[i - 1]
             result.append(str(nums[j]))
             nums.remove(nums[j])
