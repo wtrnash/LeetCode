@@ -32,7 +32,7 @@ public:
             return 0;
         }
         
-        vector<int> heights(m, 0);
+        vector<int> heights(m, 0);  //逐层记录每列的高度
         int result = 0;
         for(int i = 0; i < n; i++)
         {
