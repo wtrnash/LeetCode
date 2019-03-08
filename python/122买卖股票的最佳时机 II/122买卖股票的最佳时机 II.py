@@ -27,7 +27,7 @@
 
 # 解答：一遍遍历。每次有升价即加入profit
 class Solution:
-    def maxProfit(self, price):
+    def maxProfit(self, prices):
         profit = 0
         for i in range(1, len(prices)):
             differ =  prices[i] - prices[i - 1]
