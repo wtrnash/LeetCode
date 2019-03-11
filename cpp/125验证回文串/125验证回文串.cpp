@@ -24,7 +24,7 @@ public:
         if(n == 0)
             return true;
         int i = 0, j = n - 1;
-        while(i < n)
+        while(i < j)
         {
             
             while(!(s[i] >= 'a' && s[i] <= 'z' || s[i] >= '0' && s[i] <= '9' || s[i] >= 'A' && s[i] <= 'Z') && i < n)
