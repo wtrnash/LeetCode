@@ -16,7 +16,7 @@
 
 # 解答：递归，每次分割成功一个子串后，对剩下来的子串递归分割，一直到分割完则加入结果中
 class Solution:
-    def partition(self, s: str) -> List[List[str]]:
+    def partition(self, s: str):
         if len(s) == 0:
             return []
         self.result = []
