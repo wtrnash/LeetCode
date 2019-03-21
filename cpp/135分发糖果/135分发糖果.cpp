@@ -23,7 +23,6 @@
 
 //解答：用数组记录每个位置的糖果数，初始为1。从前往后遍历，如果后面的比前面的大，要更新成前面的加一。再从后往前遍历，如果前面的比后面的大，前面的也要更新
 #include <vector>
-
 using namespace std;
 class Solution {
 public:
