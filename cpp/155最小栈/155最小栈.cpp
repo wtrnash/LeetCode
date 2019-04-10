@@ -21,6 +21,7 @@ minStack.getMin();   --> 返回 -2.
 //解答:利用两个栈，一个存所有数据，一个是当前Push的元素小于等于栈顶元素的话就压栈
 #include <stack>
 using namespace std;
+
 class MinStack {
 public:
     stack<int> s1, s2;
