@@ -41,7 +41,7 @@
 版本字符串不以点开始或结束，并且其中不会有两个连续的点。
 */
 
-//解答：
+//解答：依次处理，排除前置零即可
 #include <vector>
 #include <string>
 using namespace std;
