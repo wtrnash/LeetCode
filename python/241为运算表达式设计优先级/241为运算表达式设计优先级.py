@@ -19,7 +19,7 @@
 (2*((3-4)*5)) = -10 
 (((2*3)-4)*5) = 10
 
-""""
+"""
 # 解答：用递归，把每个符号分成左右两部分，然后分别按符号运算结果
 class Solution:
     def diffWaysToCompute(self, input: str):
