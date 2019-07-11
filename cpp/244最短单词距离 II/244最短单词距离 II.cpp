@@ -26,11 +26,13 @@ public:
     
     int shortest(string word1, string word2) {
         int result = INT_MAX;
-        for(int i = 0; i < m[word1].size(); i++)
+        vector<int> a = m[word1];
+        vector<int> b = m[word2];
+        for(int i = 0; i < a.size(); i++)
         {
-            for(int j = 0; j < m[word2].size(); j++)
+            for(int j = 0; j < b.size(); j++)
             {
-                result = min(result, abs(m[word1][i] - m[word2][j]));
+                result = min(result, abs(a[i] - b[j]));
             }
         }
         
